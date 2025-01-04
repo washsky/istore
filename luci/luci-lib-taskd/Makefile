@@ -6,7 +6,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=Task library
-LUCI_DEPENDS:=+luci-lib-xterm +taskd>=1.0.3-1
+LUCI_DEPENDS:=+luci-lib-xterm +taskd
 LUCI_PKGARCH:=all
 
 PKG_VERSION:=1.0.20
