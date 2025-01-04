@@ -19,9 +19,12 @@ ISTORE_UI_VERSION:=0.1.27
 ISTORE_UI_RELEASE:=2
 PKG_HASH:=7fb8e9983dd33b14c43de3caf6a6121df0727e0adac6c666354e0d8a0cffa0b8
 
-PKG_SOURCE_URL_FILE:=v$(ISTORE_UI_VERSION)-$(ISTORE_UI_RELEASE).tar.gz
-PKG_SOURCE:=istore-ui-$(PKG_SOURCE_URL_FILE)
-PKG_SOURCE_URL:=https://github.com/linkease/istore-ui/archive/refs/tags
+# PKG_SOURCE_URL_FILE:=v$(ISTORE_UI_VERSION)-$(ISTORE_UI_RELEASE).tar.gz
+# PKG_SOURCE:=istore-ui-$(PKG_SOURCE_URL_FILE)
+# PKG_SOURCE_URL:=https://github.com/linkease/istore-ui/archive/refs/tags
+# 更新为正确的 GitHub release 下载地址
+PKG_SOURCE_URL:=https://github.com/linkease/istore-ui/archive/refs/tags/v0.1.27-2.tar.gz
+PKG_SOURCE:=istore-ui-v0.1.27-2.tar.gz
 
 PKG_MAINTAINER:=jjm2473 <jjm2473@gmail.com>
 
